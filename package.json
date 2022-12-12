@@ -4,7 +4,7 @@
   "description": "App engine CI",
   "main": "index.js",
   "scripts": {
-    "watch": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts"
+    "start": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts"
   },
   "author": "",
   "license": "MIT",
